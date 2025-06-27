@@ -1,0 +1,269 @@
+.fc {
+    color: #743CDB;
+}
+
+.dropdown .show{
+    display: none !important;
+    transition: .5s ease-in-out;
+}
+
+.dropdown:hover .show{
+    display: block !important;
+    transition: .5s ease-in-out;
+}
+
+.bg {
+    background-color: #743CDB;
+}
+
+.fc1 {
+    color: #31245b;
+}
+
+.bg1 {
+    background-color: #31245b;
+}
+
+.pc {
+    color: #757575;
+}
+
+.p1 {
+    color: #a7a7a7;
+}
+
+.p1:hover {
+
+    color: #743CDB;
+    transition: .3s ease;
+
+}
+
+.font {
+    color: #fff;
+}
+
+.font1 {
+    color: #fff;
+}
+
+.font1:hover {
+
+    color: #31245b;
+
+}
+
+.btn {
+    background-color: #743CDB !important;
+    padding: 8px 22px !important;
+    color: #fff !important;
+    border-radius: 50px !important;
+    font-family: arial !important;
+    transition: .3s linear;
+}
+
+.btn:hover {
+
+    background-color: #31245b !important;
+    transition: .3s linear;
+
+}
+
+.btn-1 {
+    background-color: #743CDB !important;
+    padding: 10px 22px !important;
+    color: #fff !important;
+    border-radius: 50px !important;
+    font-family: arial !important;
+    transition: .3s linear;
+    border: none;
+}
+
+.btn-1:hover  {
+
+    background-color: #ffffff !important;
+    transition: .3s linear;
+    color: black !important;
+
+
+}
+
+.fc2 {
+
+    color: #31245b;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.fc2:hover {
+
+    color: #743CDB;
+    transition: .1s linear;
+}
+
+.zoom-box::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 139, 0.493);
+    z-index: -1;
+    transition: .3s linear;
+}
+
+.zoom-box:hover::before {
+    z-index: 11;
+    transition: .3s linear;
+    color: white !important;
+}
+
+
+.zoom-box:hover .zoom {
+    opacity: 1 !important;
+    color: white !important;
+    z-index: 1;
+    transition: .3s linear;
+}
+
+.five-top:hover .five-top-box{
+  z-index: 22 !important;
+  border-radius: 30px !important;
+}
+
+
+
+.font2 {
+    background-color: #3B5998;
+    padding: 6px 10px;
+    border-radius: 100%;
+}
+
+.font3 {
+    background-color: #1DA1F2;
+    padding: 6px 10px;
+    border-radius: 100%;
+}
+
+.font4 {
+    background-color: #CD201F;
+    padding: 6px 10px;
+    border-radius: 100%;
+}
+
+.font5 {
+    background-color: #262626;
+    padding: 6px 10px;
+    border-radius: 100%;
+}
+
+.font6 {
+    background-color: #24D366;
+    padding: 6px 10px;
+    border-radius: 100%;
+}
+
+/* .heading {
+  display: block;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+} */
+
+.form-container {
+    width: 350px !important;
+    height: 100vh !important;
+    margin: 30px;
+    margin-top: 0;
+    background-color: #fff;
+    /* padding: 200px; */
+    /* clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%); */
+    display: none;
+    position: relative;
+    z-index: 111111111;
+    position: fixed !important;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    padding-bottom: 50px !important;
+}
+
+.form-page {
+    width: 300px !important;
+    height: 350px;
+    /* position: absolute; */
+    /* left: 50px; */
+    /* top: 150px; */
+    background-color: #EFF2FB;
+    border-radius: 20px;
+    border-bottom: 5px solid #31245b;
+}
+
+.form-page1 {
+
+    width: 300px !important;
+    height: 450px;
+    /* position: absolute; */
+    /* left: 50px; */
+    background-color: #31245b;
+    border-radius: 20px;
+    /* top: 500px; */
+    
+
+}
+@media only screen and (max-width:430px) {
+    
+    .al{
+
+        height: 200px !important;
+        margin-right: 35px;
+    
+
+    }
+
+    .ab{
+
+        height: 200px !important;
+        margin-left: 35px;
+    
+
+    }
+
+    .pa{
+
+        bottom: -45px !important;
+        left: 200px;
+    }
+
+    .btn-1{
+        width: 180px;
+        font-size: 12px;
+    }
+
+    .input1{
+        width: 350px !important;
+    }
+
+    .input2{
+        width: 175px !important;
+    }
+
+    .rp{
+        height: 400px !important;
+        margin-right: -10px !important;
+    }
+    .rp1{
+        height: 320px !important;
+        margin-left: 30px !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .p2{
+        left: 500px !important;
+        top: 50px !important;
+    }
+
+}

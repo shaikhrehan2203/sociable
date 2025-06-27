@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home-Sociable</title>
+  <link rel="icon" href="upward-arrow.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+
+  <div class="contaner-fluid p-0" style="overflow: hidden;">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-5" href="#"><img src="logo-img.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item me-4">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown me-4">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                PAGES
+              </a>
+              <ul class="dropdown-menu show">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown me-4">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                BLOG
+              </a>
+              <ul class="dropdown-menu show">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+            </li>
+
+          </ul>
+          <form class="d-flex me-5 align-items-center" role="search">
+            <button class="btn me-5" type="submit"> <img src="arrow-right.png" class="mb-1" style="height: 25px;"
+                alt=""> GET A QUOTE</button>
+            <span style="color: black;font-size: 25px;"><i class="bi bi-search me-4"></i></span>
+            <span style="color: black;font-size: 25px;"><i class="bi bi-grid-3x3-gap-fill fs-3 ak"
+                onclick="btnclick()"></i></span>
+          </form>
+          <div class="form-container p-0 overflow-auto" style="right: -42px;top: 0px;z-index: 1;">
+            <i class="bi bi-x-circle fs-2 ms-auto p-3" style="" onclick="closeOne()"></i>
+            <div style="width: 100%;height: 100%;position: relative;"
+              class="form p-5  d-flex flex-column align-items-center justify-content-center ">
+
+
+              <div class="form-page d-flex align-items-center justify-content-center flex-column py-4">
+                <h1 class="fc1 fs-5" style="border: 3px dotted grey;padding: 8px 20px;border-radius: 50px;">ABOUT
+                  COMPANY</h1>
+                <img src="logo-img.png" class="mt-3" alt="">
+                <p class="text-center pc mt-3">Consequat incidunt necessitatibus. Dignissim fuga neque natoque ornare.
+                </p>
+                <div class=" d-flex justify-content-evenly align-items-start mt-3">
+                  <i class="bi bi-facebook  me-1 font2 fs-5 text-white"></i>
+                  <i class="bi bi-twitter   me-1 font3 fs-5 text-white"></i>
+                  <i class="bi bi-youtube   me-1 font4 fs-5 text-white"></i>
+                  <i class="bi bi-instagram me-1 font5 fs-5 text-white"></i>
+                  <i class="bi bi-whatsapp  me-1 font6 fs-5 text-white"></i>
+                </div>
+              </div>
+
+              <div class="form-page1 my-3 d-flex align-items-center justify-content-center flex-column py-3">
+                <h1 class="font fs-5" style="border: 3px dotted grey;padding: 8px 20px;border-radius: 50px;">ABOUT
+                  COMPANY</h1>
+                <div class="row">
+                  <div class="left d-flex align-items-center justify-content-center"
+                    style="height: 110px;width: 140px;">
+                    <img src="img_35.jpg" style="height: 60%;width: 100%;border-radius: 10px;object-fit: cover;" alt="">
+                  </div>
+                  <div class="right d-flex align-items-start justify-content-center flex-column"
+                    style="height: 110px;width: 140px;">
+                    <h1 style="font-size: 15px;" class="font mt-3">5 Steps To Follow For Your SEO Optimization</h1>
+                    <p class="p1" style="font-size: 13px;"> 09 Apr 2023</p>
+                  </div>
+                </div>
+                 <div class="row">
+                  <div class="left d-flex align-items-center justify-content-center"
+                    style="height: 110px;width: 140px;">
+                    <img src="img_37 (1).jpg" style="height: 60%;width: 100%;border-radius: 10px;object-fit: cover;" alt="">
+                  </div>
+                  <div class="right d-flex align-items-start justify-content-center flex-column"
+                    style="height: 110px;width: 140px;">
+                    <h1 style="font-size: 15px;" class="font mt-3">5 Steps To Follow For Your SEO Optimization</h1>
+                    <p class="p1" style="font-size: 13px;"> 09 Apr 2023</p>
+                  </div>
+                </div>
+                 <div class="row">
+                  <div class="left d-flex align-items-center justify-content-center"
+                    style="height: 110px;width: 140px;">
+                    <img src="img_36.jpg" style="height: 60%;width: 100%;border-radius: 10px;object-fit: cover;" alt="">
+                  </div>
+                  <div class="right d-flex align-items-start justify-content-center flex-column"
+                    style="height: 110px;width: 140px;">
+                    <h1 style="font-size: 15px;" class="font mt-3">5 Steps To Follow For Your SEO Optimization</h1>
+                    <p class="p1" style="font-size: 13px;"> 09 Apr 2023</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="contaner"
+      style="background-image: url(img_03.png);background-size: cover;background-repeat: no-repeat;background-color: #EFF2FB;">
+      <div class="row d-flex">
+        <div class="col-lg-4 py-5 d-flex alig justify-content-end flex-column" style="position: relative;height: 90%;">
+          <img style="" src="img_01.png" alt="">
+          <img style="position: absolute;top:-5px;left: 200px;" class="d-md-flex d-none p2" src="img_04.png" alt="">
+        </div>
+        <div class="col-lg-4 py-5 d-flex align-items-center justify-content-center flex-column">
+          <p class="fc">SOCIAL MEDIA MARKETING</p>
+          <h1 class="fc1" style="font-weight: bold;font-size: 50px;text-align: center;">Easily Grow <br> Your Business
+          </h1>
+          <p class="pc text-center mt-3">Veniam eaque irure faucibus deleniti proident lacus aliqua culpa modi, pede leo
+            platea primis montes.</p>
+
+          <div class="d-flex mt-3">
+            <button class="btn me-3" type="submit"> <img src="arrow-right.png" class="mb-1" style="height: 25px;"
+                alt=""> GET STARTED</button>
+            <div class=""></div>
+            <span><i class="bi bi-play-circle fs-1"></i></span>
+            <button class="fc1" style="border: none;background: none;"> HOW WE WORKS</button>
+          </div>
+
+          <div class="col-12 d-flex mt-3">
+            <span style="color: skyblue;">-------------------------------------------------------------------</span>
+          </div>
+
+          <!-- <div class="d-flex">
+            <img class="ms-3" src="img_10.png" style="height: 70px;width: 120px;object-fit:contain;" alt="">
+            <img class="ms-3" src="img_11.png" style="height: 70px;width: 120px;object-fit:contain;" alt="">
+            <img class="ms-3" src="img_12.png" style="height: 70px;width: 120px;object-fit:contain;" alt="">
+            <img class="ms-3" src="img_13.png" style="height: 70px;width: 120px;object-fit:contain;" alt="">
+          </div> -->
+
+        </div>
+        <div class="col-lg-4 py-5 d-flex align-items-center justify-content-center flex-column"
+          style="position: relative;;">
+          <img class="img2" src="img_02.png" style="height: 550px;" alt="">
+          <img src="img_05.png" style="position: absolute;bottom: 220px;height: 300px;" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" style="opacity: 1;">
+    <div class="container">
+      <div class="row " style="background-color: #31245b;border-radius: 40px;">
+        <div class="col-lg-3  py-5 d-flex align-items-start justify-content-center flex-column py-3">
+          <p class="font ms-3">WHY CHOOSE US</p>
+          <h1 class="font ms-3 mt-3">Our Goals & Benefits</h1>
+          <button class="btn-1  mt-4" type="submit"> <i class="bi bi-arrow-right-circle-fill"></i> MORE
+            BENEFITS</button>
+        </div>
+        <div class="col-lg-3  py-3 d-flex align-items-center justify-content-center flex-column py-3">
+          <img src="content-strategy.png"
+            style="height: 140px;background-color: #fff;padding: 18px 24px;border-radius: 20px;" alt="">
+          <div class="d-flex align-items-center justify-content-center flex-column">
+            <h1 class="text-center font fs-5 mt-3">Digital Marketing</h1>
+            <p class="text-center  font mt-2">Cras fusce commodo litora nisl viverra ipsam.</p>
+          </div>
+        </div>
+        <div class="col-lg-3  py-5 d-flex align-items-center justify-content-center flex-column bg">
+          <img src="database-management.png"
+            style="height: 140px;background-color: #fff;padding: 18px 24px;border-radius: 20px;" alt="">
+          <div class="d-flex align-items-center justify-content-center flex-column">
+            <h1 class="text-center font fs-5 mt-3">Digital Marketing</h1>
+            <p class="text-center  font mt-2">Cras fusce commodo litora nisl viverra ipsam.</p>
+          </div>
+        </div>
+        <div class="col-lg-3  py-3 d-flex align-items-center justify-content-center flex-column py-3">
+          <img src="brand-image.png"
+            style="height: 140px;background-color: #fff;padding: 18px 24px;border-radius: 20px;" alt="">
+          <div class="d-flex align-items-center justify-content-center flex-column">
+            <h1 class="text-center font fs-5 mt-3">Digital Marketing</h1>
+            <p class="text-center  font mt-2">Cras fusce commodo litora nisl viverra ipsam.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid py-5" style="overflow: hidden;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7  py-5" style="position: relative;">
+          <img src="img_07-1.jpg" style="height: 350px;border-radius: 50px;" alt="">
+          <img class="d-md-flex d-none" src="img_06-1.jpg"
+            style="position: absolute;height: 120px;border-radius: 100px;right: 150px;top: 120px;" alt="">
+          <img src="img_15.png" style="position: absolute;top: 350px;left:20px;" alt="">
+          <img src="img_09-1.jpg"
+            style="height: 170px;border-radius: 100px;position: absolute;bottom: -20px;left: 140px;"
+            class="d-md-flex d-none" alt="">
+          <div class="gb d-flex align-items-center justify-content-center"
+            style="background-color:#fff;border-radius: 100%;height:300px;width:300px;position: absolute;right: 0;top: 300px;left: 320px;">
+            <img src="img_8.jpg" style="height: 90%;width: 90%;border-radius: 100%;" class="d-md-flex d-none" alt="">
+            <img src="img_16.png" style="position: absolute;bottom: 0;height: 90px;left: 150px;" alt="">
+          </div>
+        </div>
+        <div class="col-lg-5  py-5 d-flex align-items-start justify-content-center flex-column">
+          <p class="fc">INTRODUCTION ABOUT US</p>
+          <h1 class="fc1 fw-bold">Optimize Social Efforts For Greater Impact.</h1>
+          <p class="pc mt-2">Omnis quis sunt quasi aliquet senectus tenetur dolor! Omnis! Corrupti, est arcu, felis,
+            molestiae impedit vel felis eget.</p>
+          <div class="col-12 mt-2 d-flex align-items-center justify-content-center py-1"
+            style="border-radius: 50px;border-left: 3px solid #31245b;background-color: rgba(245, 245, 245, 0.781);">
+            <div class="col-2 d-flex align-items-start justify-content-center flex-column">
+              <i class="bi bi-check2 fs-3 ms-3"
+                style="background-color: rgba(135, 207, 235, 0.116);padding:3px 10px;border-radius: 50px;"></i>
+            </div>
+            <div class="col-10 d-flex align-items-start justify-content-center flex-column">
+              <h1 class="fc1 fs-5 mt-2  ms-3">Target Oriented Work</h1>
+              <p class="pc ms-3">Laboriosam tempus eu imperdiet pedes.</p>
+            </div>
+          </div>
+          <div class="col-12 d-flex align-items-center justify-content-center py-1 mt-3"
+            style="border-radius: 50px;border-left: 3px solid #31245b;background-color: rgba(245, 245, 245, 0.781);">
+            <div class="col-2 d-flex align-items-start justify-content-center flex-column">
+              <i class="bi bi-check2 fs-3 ms-3"
+                style="background-color: rgba(135, 207, 235, 0.116);padding:3px 10px;border-radius: 50px;"></i>
+            </div>
+            <div class="col-10 d-flex align-items-start justify-content-center flex-column">
+              <h1 class="fc1 fs-5 mt-2  ms-3">Target Oriented Work</h1>
+              <p class="pc ms-3">Laboriosam tempus eu imperdiet pedes.</p>
+            </div>
+          </div>
+          <button class="btn me-5 mt-4" type="submit"> <img src="arrow-right.png" class="mb-1" style="height: 25px;"
+              alt=""> MORE ABOUT US</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid py-5" style="background-color: #EFF2FB;overflow-x: hidden;">
+    <div class="container">
+      <div class="row">
+        <p class="fc text-center">WHAT WE CREATE</p>
+        <h1 class="fc1 text-center fw-bold">Providing Best Services</h1>
+        <p class="pc text-center mt-2">Dolorum tempor quis dictum tempore, curabitur commoding sec <br> inventore aute
+          maecenas commodo, nibh.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="col-12 d-flex align-items-center justify-content-center py-3 "
+            style="background-color: #fff;border-radius: 20px;">
+            <div class="col-6 d-flex align-items-start justify-content-center flex-column">
+              <h1 class="fc1 fs-4 ms-4">Business Marketing Strategy</h1>
+              <p class="pc ms-4">Omnis quis sunt quasi aliquet senectus tenetur dolor! Omnis! Corrupti, esto.</p>
+              <p class="fc1 ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> LEARN MORE</p>
+            </div>
+            <div class="col-6 d-flex align-items-center justify-content-center" style="position: relative;">
+              <img src="img_17-1.jpg" class="ms-2 mt-2 al" style="height:250px;border-radius: 100px 0 0 100px;" alt="">
+              <img class="d-md-flex d-none" src="return-on-investment.png"
+                style="position: absolute;height: 70px;width: 70px;background-color: #734CDB;padding: 10px 10px;border-radius: 100px;right: 210px;"
+                alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="col-12 mt-2 d-flex align-items-center justify-content-center py-3"
+            style="background-color: #fff;border-radius: 20px;">
+            <div class="col-6 d-flex align-items-center justify-content-center" style="position: relative;">
+              <img src="img_19.jpg" class="me-2 mt-2 ab" style="height:250px;border-radius: 0 100px 100px 0;" alt="">
+              <img class="d-md-flex d-none" src="return-on-investment.png"
+                style="position: absolute;height: 70px;width: 70px;background-color: #734CDB;padding: 10px 10px;border-radius: 100px;left: 210px;"
+                alt="">
+            </div>
+            <div class="col-6 d-flex align-items-start justify-content-center flex-column">
+              <h1 class="fc1 fs-4 ms-4">Business Marketing Strategy</h1>
+              <p class="pc ms-4">Omnis quis sunt quasi aliquet senectus tenetur dolor! Omnis! Corrupti, esto.</p>
+              <p class="fc1 ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> LEARN MORE</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 mt-3">
+          <div class="col-12 mt-2 d-flex align-items-center justify-content-center py-3"
+            style="background-color: #fff;border-radius: 20px;">
+            <div class="col-6 d-flex align-items-start justify-content-center flex-column">
+              <h1 class="fc1 fs-4 ms-4">Business Marketing Strategy</h1>
+              <p class="pc ms-4">Omnis quis sunt quasi aliquet senectus tenetur dolor! Omnis! Corrupti, esto.</p>
+              <p class="fc1 ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> LEARN MORE</p>
+            </div>
+            <div class="col-6 d-flex align-items-center justify-content-center" style="position: relative;">
+              <img src="img_18-1.jpg" class="ms-2 mt-2 al" style="height:250px;border-radius: 100px 0 0 100px;" alt="">
+              <img class="d-md-flex d-none" src="return-on-investment.png"
+                style="position: absolute;height: 70px;width: 70px;background-color: #734CDB;padding: 10px 10px;border-radius: 100px;right: 210px;"
+                alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-3">
+          <div class="col-12 mt-2 d-flex align-items-center justify-content-center py-3"
+            style="background-color: #fff;border-radius: 20px;">
+            <div class="col-6 d-flex align-items-center justify-content-center" style="position: relative;">
+              <img src="img_20.jpg" class="me-2 mt-2 ab" style="height:250px;border-radius: 0 100px 100px 0;" alt="">
+              <img class="d-md-flex d-none" src="return-on-investment.png"
+                style="position: absolute;height: 70px;width: 70px;background-color: #734CDB;padding: 10px 10px;border-radius: 100px;left: 210px;"
+                alt="">
+            </div>
+            <div class="col-6 d-flex align-items-start justify-content-center flex-column">
+              <h1 class="fc1 fs-4 ms-4">Business Marketing Strategy</h1>
+              <p class="pc ms-4">Omnis quis sunt quasi aliquet senectus tenetur dolor! Omnis! Corrupti, esto.</p>
+              <p class="fc1 ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> LEARN MORE</p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <button class="btn me-5 mt-4" style="width: 210px;" type="submit"> <img src="arrow-right.png" class="mb-1"
+              style="height: 25px;" alt=""> MORE ABOUT US</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid bg1 py-5" style="background-image: url(img_03.png);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex align-items-start justify-content-center flex-column">
+          <p class="font">WE CAN HELP YOU</p>
+          <h1 class="font fw-bold">We're Experts In The Marketing Business !</h1>
+          <p class="font">Omnis quis sunt quasi aliquet senectus tenetur dolor! Omnis! Corrupti, est arcu, felis,
+            molestiae impedit
+            vel felis eget.</p>
+          <div class="col-11 d-md-flex align-items-center justify-content-center">
+            <div class="col-5  d-flex align-items-center justify-content-start" style="">
+              <img src="img_24.jpg" style="height: 50px;width: 50px;border-radius:100px;border: 2px solid white;"
+                alt="">
+              <img src="img_25.jpg" style="height: 50px;width: 50px;border-radius:100px;border: 2px solid white;"
+                alt="">
+              <img src="img_26.jpg" style="height: 50px;width: 50px;border-radius:100px;border: 2px solid white;"
+                alt="">
+              <img src="img_27.jpg" style="height: 50px;width: 50px;border-radius:100px;border: 2px solid white;"
+                alt="">
+            </div>
+            <div class="col-7  d-flex align-items-start justify-content-center flex-column">
+              <p class="font fw-bold mt-3">Our Happy Customers</p>
+              <div class="d-flex">
+                <p class="font">(1k Reviews)</p>
+                <i class="bi bi-star-fill fc ms-2"></i>
+                <i class="bi bi-star-fill fc"></i>
+                <i class="bi bi-star-fill fc"></i>
+                <i class="bi bi-star-fill fc"></i>
+                <i class="bi bi-star-half fc"></i>
+              </div>
+            </div>
+          </div>
+          <button class="btn-1  mt-4" type="submit"> <i class="bi bi-arrow-right-circle-fill"></i> HIRE US NOW</button>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center justify-content-center flex-column" style="">
+          <img src="img1.png" style="height: 100%;width: 100%;object-fit: cover;" alt="">
+        </div>
+      </div>
+      <div class="row" style="border-top: 1px solid #757575;">
+        <div class="col-lg-4  d-flex mt-5">
+          <div class="col-6 py-2 d-flex align-items-center justify-content-center flex-column" style="">
+            <img src="project.png" style="height: 120px;background-color: #fff;padding: 18px 24px;border-radius: 20px;"
+              alt="">
+          </div>
+          <div class="col-6 py-2 d-flex align-items-start justify-content-center flex-column" style="">
+            <h1 class="fc" style="font-size:60px;font-weight: bold;">5k+</h1>
+            <p class="font fw-bold">Project Completed</p>
+          </div>
+        </div>
+        <div class="col-lg-4  d-flex mt-5">
+          <div class="col-6 py-2 d-flex align-items-center justify-content-center flex-column" style="">
+            <img src="rating.png" style="height: 120px;background-color: #fff;padding: 18px 24px;border-radius: 20px;"
+              alt="">
+          </div>
+          <div class="col-6 py-2 d-flex align-items-start justify-content-center flex-column" style="">
+            <h1 class="fc" style="font-size:60px;font-weight: bold;">5k+</h1>
+            <p class="font fw-bold">Project Completed</p>
+          </div>
+        </div>
+        <div class="col-lg-4  d-flex mt-5">
+          <div class="col-6 py-2 d-flex align-items-center justify-content-center flex-column" style="">
+            <img src="user.png" style="height: 120px;background-color: #fff;padding: 18px 24px;border-radius: 20px;"
+              alt="">
+          </div>
+          <div class="col-6 py-2 d-flex align-items-start justify-content-center flex-column" style="">
+            <h1 class="fc" style="font-size:60px;font-weight: bold;">5k+</h1>
+            <p class="font fw-bold">Project Completed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid py-5">
+    <div class="container">
+      <div class="row">
+        <p class="fc text-center fw-bold">PROJECT COMPLETED</p>
+        <h1 class="fc1 text-center fw-bold">Project We Have Done</h1>
+        <p class="pc text-center">Dolorum tempor quis dictum tempore, curabitur commoding sec <br> inventore aute
+          maecenas commodo, nibh.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 d-flex justify-content-center align-items-center flex-column gap-5">
+          <div class="five-top position-relative" data-aos="zoom-in-down" data-aos-delay="150" data-aos-duration="1800">
+            <img style="height: 300px;object-fit: cover;border-radius: 30px;" src="img_30-800x533.jpg"
+              class="img-fluid position-relative" alt="">
+            <div class="five-top-box d-flex justify-content-center align-items-center flex-column text-white"
+              style="background-color: #31245b8a;position: absolute;top: 0;left: 0;height: 100%;width: 100%;z-index: -1;border-radius: 30px;">
+              <span style="z-index: 111;" class="fw-bold text-white fs-3">Business Marketing</span>
+              <p style="text-align: center;color: white;font-weight: 500;font-size: 20px;">Nascetur placeat vestibulum
+                occaecati nunc porttitor iusto dol.</p>
+
+              <div class="d-flex justify-content-center align-items-center">
+                <span
+                  style="background-color: white;border-radius: 50%;padding: 12px 18px;color: #31245B;font-weight: bold;font-size: 22px;"><i
+                    class="bi bi-search"></i></span>
+                <span class="ms-2"
+                  style="background-color: white;border-radius: 50%;padding: 12px 18px;color: #31245B;font-weight: bold;font-size: 22px;"><i
+                    class="bi bi-link-45deg"></i></span>
+
+              </div>
+            </div>
+          </div>
+          <div class="five-top position-relative" data-aos="zoom-in-up" data-aos-delay="150" data-aos-duration="1800">
+            <img style="height: 590px;object-fit: cover;border-radius: 30px;" src="img_29.jpg"
+              class="img-fluid position-relative" alt="">
+            <div class="five-top-box d-flex justify-content-center align-items-center flex-column text-white"
+              style="background-color: #31245b8a;position: absolute;top: 0;left: 0;height: 100%;width: 100%;z-index: -1;border-radius: 30px;">
+              <span style="z-index: 111;" class="fw-bold text-white fs-3">Business Marketing</span>
+              <p style="text-align: center;color: white;font-weight: 500;font-size: 20px;">Nascetur placeat vestibulum
+                occaecati nunc porttitor iusto dol.</p>
+
+              <div class="d-flex justify-content-center align-items-center">
+                <span
+                  style="background-color: white;border-radius: 50%;padding: 12px 18px;color: #31245B;font-weight: bold;font-size: 22px;"><i
+                    class="bi bi-search"></i></span>
+                <span class="ms-2"
+                  style="background-color: white;border-radius: 50%;padding: 12px 18px;color: #31245B;font-weight: bold;font-size: 22px;"><i
+                    class="bi bi-link-45deg"></i></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-center align-items-center flex-column gap-5">
+
+          <div class="five-top position-relative" data-aos="zoom-in-up" data-aos-delay="150" data-aos-duration="1800">
+            <img style="height: 590px;object-fit: cover;border-radius: 30px;" src="img_33.jpg"
+              class="img-fluid position-relative" alt="">
+            <div class="five-top-box d-flex justify-content-center align-items-center flex-column text-white"
+              style="background-color: #31245b8a;position: absolute;top: 0;left: 0;height: 100%;width: 100%;z-index: -1;border-radius: 30px;">
+              <span style="z-index: 111;" class="fw-bold text-white fs-3">Business Marketing</span>
+              <p style="text-align: center;color: white;font-weight: 500;font-size: 20px;">Nascetur placeat vestibulum
+                occaecati nunc porttitor iusto dol.</p>
+
+              <div class="d-flex justify-content-center align-items-center">
+                <span
+                  style="background-color: white;border-radius: 50%;padding: 12px 18px;color: #31245B;font-weight: bold;font-size: 22px;"><i
+                    class="bi bi-search"></i></span>
+                <span class="ms-2"
+                  style="background-color: white;border-radius: 50%;padding: 12px 18px;color: #31245B;font-weight: bold;font-size: 22px;"><i
+                    class="bi bi-link-45deg"></i></span>
+
+              </div>
+            </div>
+          </div>
+          <div class="five-top position-relative" data-aos="zoom-in-down" data-aos-delay="150" data-aos-duration="1800">
+            <img style="height: 300px;object-fit: cover;border-radius: 30px;" src="img_32-800x533.jpg"
+              class="img-fluid position-relative" alt="">
+            <div class="five-top-box d-flex justify-content-center align-items-center flex-column text-white"
+              style="background-color: #31245b8a;position: absolute;top: 0;left: 0;height: 100%;width: 100%;z-index: -1;border-radius: 30px;">
+              <span style="z-index: 111;" class="fw-bold text-white fs-3">Business Marketing</span>
+              <p style="text-align: center;color: white;font-weight: 500;font-size: 20px;">Nascetur placeat vestibulum
+                occaecati nunc porttitor iusto dol.</p>
+
+              <div class="d-flex justify-content-center align-items-center">
+                <span
+                  style="background-color: white;border-radius: 50%;padding: 12px 18px;color: #31245B;font-weight: bold;font-size: 22px;"><i
+                    class="bi bi-search"></i></span>
+                <span class="ms-2"
+                  style="background-color: white;border-radius: 50%;padding: 12px 18px;color: #31245B;font-weight: bold;font-size: 22px;"><i
+                    class="bi bi-link-45deg"></i></span>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-4 d-flex justify-content-center align-items-center flex-column gap-5">
+          <div class="five-top position-relative" data-aos="zoom-in-down" data-aos-delay="150" data-aos-duration="1800">
+            <img style="height: 300px;object-fit: cover;border-radius: 30px;" src="img_31-800x533.jpg"
+              class="img-fluid position-relative" alt="">
+            <div class="five-top-box d-flex justify-content-center align-items-center flex-column text-white"
+              style="background-color: #31245b8a;position: absolute;top: 0;left: 0;height: 100%;width: 100%;z-index: -1;border-radius: 30px;">
+              <span style="z-index: 111;" class="fw-bold text-white fs-3">Business Marketing</span>
+              <p style="text-align: center;color: white;font-weight: 500;font-size: 20px;">Nascetur placeat vestibulum
+                occaecati nunc porttitor iusto dol.</p>
+
+              <div class="d-flex justify-content-center align-items-center">
+                <span
+                  style="background-color: white;border-radius: 50%;padding: 12px 18px;color: #31245B;font-weight: bold;font-size: 22px;"><i
+                    class="bi bi-search"></i></span>
+                <span class="ms-2"
+                  style="background-color: white;border-radius: 50%;padding: 12px 18px;color: #31245B;font-weight: bold;font-size: 22px;"><i
+                    class="bi bi-link-45deg"></i></span>
+
+              </div>
+            </div>
+          </div>
+          <div class="five-top position-relative" data-aos="zoom-in-up" data-aos-delay="150" data-aos-duration="1800">
+            <img style="height: 590px;object-fit: cover;border-radius: 30px;" src="img_28.jpg"
+              class="img-fluid position-relative" alt="">
+            <div class="five-top-box d-flex justify-content-center align-items-center flex-column text-white"
+              style="background-color: #31245b8a;position: absolute;top: 0;left: 0;height: 100%;width: 100%;z-index: -1;border-radius: 30px;">
+              <span style="z-index: 111;" class="fw-bold text-white fs-3">Business Marketing</span>
+              <p style="text-align: center;color: white;font-weight: 500;font-size: 20px;">Nascetur placeat vestibulum
+                occaecati nunc porttitor iusto dol.</p>
+
+              <div class="d-flex justify-content-center align-items-center">
+                <span
+                  style="background-color: white;border-radius: 50%;padding: 12px 18px;color: #31245B;font-weight: bold;font-size: 22px;"><i
+                    class="bi bi-search"></i></span>
+                <span class="ms-2"
+                  style="background-color: white;border-radius: 50%;padding: 12px 18px;color: #31245B;font-weight: bold;font-size: 22px;"><i
+                    class="bi bi-link-45deg"></i></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center justify-content-center">
+        <button class="btn me-5 mt-4" style="width: 210px;" type="submit"> <img src="arrow-right.png" class="mb-1"
+            style="height: 25px;" alt=""> MORE ABOUT US</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid py-5" style="background-color: #EFF2FB;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 d-flex flex-column py-2" style="">
+          <div class="col-12 py-3 d-flex align-items-center justify-content-center flex-column"
+            style="border: 3px dotted grey;border-radius: 20px;">
+            <div class="col-11 py-3 d-flex align-items-center justify-content-evenly flex-column"
+              style="background-color: #fff; border-radius: 20px;">
+
+              <div class="d-flex align-items-center justify-content-center">
+                <img src="home (1).png" style="height: 80px;" class="me-5" alt="">
+                <p class="mt-2 fw-bolder"
+                  style="background-color: #EFF2FB;padding: 8px 20px;border-radius: 20px;color: #31245b;">
+                  STARTER PLAN</p>
+              </div>
+              <div class="col-12 d-flex align-items-start justify-content-center flex-column mt-3">
+                <h1 class="ms-4" style="font-size: 40px;color: #734CDB;font-weight: bold;">$35.89 <span
+                    style="font-size: 15px;color: #A7A7A7;"> / month</span></h1>
+                <p class="fc1 fw-bold fs-5 ms-4">Perfect Plan for Starters.</p>
+              </div>
+            </div>
+
+
+            <div class="col-12 py-4 d-flex align-items-start justify-content-center flex-column">
+              <p class="ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> Eleifend aut maxime metus.</p>
+              <p class="ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> Rhoncus commodo port.</p>
+              <p class="ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> Nisl netus, consequun.</p>
+              <p class="ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> Ullam elit diamlorem eum.</p>
+              <p class="ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> Litora molestias omnis.</p>
+              <button class="btn ms-3 " type="submit"> <img src="arrow-right.png" class="mb-1" style="height: 25px;"
+                  alt=""> GET
+                STARTED</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4  d-flex flex-column py-2" style="">
+          <div class="col-12 py-3 align-items-center justify-content-center d-flex flex-column"
+            style="border: 3px dotted grey;border-radius: 20px;">
+            <div class="col-11 py-3 d-flex align-items-center justify-content-evenly flex-column"
+              style="background-color: #fff; border-radius: 20px;">
+
+              <div class="d-flex align-items-center justify-content-center">
+                <img src="office-building.png" style="height: 80px;" class="me-5" alt="">
+                <p class="mt-2 fw-bolder"
+                  style="background-color: #EFF2FB;padding: 8px 20px;border-radius: 20px;color: #31245b;">
+                  STARTER PLAN</p>
+              </div>
+              <div class="col-12 d-flex align-items-start justify-content-center flex-column mt-3">
+                <h1 class="ms-4" style="font-size: 40px;color: #734CDB;font-weight: bold;">$35.89 <span
+                    style="font-size: 15px;color: #A7A7A7;"> / month</span></h1>
+                <p class="fc1 fw-bold fs-5 ms-4">Perfect Plan for Starters.</p>
+              </div>
+            </div>
+
+            <div class="col-12 py-4 d-flex align-items-start justify-content-center flex-column">
+              <p class="ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> Eleifend aut maxime metus.</p>
+              <p class="ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> Rhoncus commodo port.</p>
+              <p class="ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> Nisl netus, consequun.</p>
+              <p class="ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> Ullam elit diamlorem eum.</p>
+              <p class="ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> Litora molestias omnis.</p>
+              <button class="btn ms-3 " type="submit"> <img src="arrow-right.png" class="mb-1" style="height: 25px;"
+                  alt=""> GET
+                STARTED</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4  d-flex flex-column py-2" style="">
+          <div class="col-12 py-3 d-flex flex-column align-items-center justify-content-center"
+            style="border: 3px dotted grey;border-radius: 20px;">
+            <div class="col-11 py-3 d-flex align-items-center justify-content-evenly flex-column"
+              style="background-color: #fff; border-radius: 20px;">
+
+              <div class="d-flex align-items-center justify-content-center">
+                <img src="acquisition.png" style="height: 80px;" class="me-5" alt="">
+                <p class="mt-2 fw-bolder"
+                  style="background-color: #EFF2FB;padding: 8px 20px;border-radius: 20px;color: #31245b;">
+                  STARTER PLAN</p>
+              </div>
+              <div class="col-12 d-flex align-items-start justify-content-center flex-column mt-3">
+                <h1 class="ms-4" style="font-size: 40px;color: #734CDB;font-weight: bold;">$35.89 <span
+                    style="font-size: 15px;color: #A7A7A7;"> / month</span></h1>
+                <p class="fc1 fw-bold fs-5 ms-4">Perfect Plan for Starters.</p>
+              </div>
+            </div>
+
+            <div class="col-12 py-4 d-flex align-items-start justify-content-center flex-column">
+              <p class="ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> Eleifend aut maxime metus.</p>
+              <p class="ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> Rhoncus commodo port.</p>
+              <p class="ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> Nisl netus, consequun.</p>
+              <p class="ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> Ullam elit diamlorem eum.</p>
+              <p class="ms-4"> <i class="bi bi-arrow-right-circle-fill"></i> Litora molestias omnis.</p>
+              <button class="btn ms-3 " type="submit"> <img src="arrow-right.png" class="mb-1" style="height: 25px;"
+                  alt=""> GET
+                STARTED</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container-fluid py-5 bg1" style="color: white;overflow: hidden;">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-6 d-flex align-items-start justify-content-center flex-column">
+
+          <h5>GET A QUOTE</h5>
+
+          <h1>Enjoy To Integrate Your <br>Social Media Experience</h1>
+
+          <p>Omnis quis sunt quasi aliquet senectus tenetur dolor! Omnis! Corrupti, est arcu, felis, molestiae
+            impedit vel felis eget.</p>
+
+          <span class="d-flex align-items-center justify-content-around">
+
+            <input class="input2" type="text" placeholder="Your Name"
+              style="padding: 12px 24px;border-radius: 50px;border: none;outline: none;width: 200px;font-weight: bold;">
+
+            <input class="input2 ms-1" type="text" class="ms-1" placeholder="Your Email"
+              style="padding: 12px 24px;border-radius: 50px;border: none;outline: none;width: 200px;font-weight: bold;">
+
+          </span>
+
+          <input class="mt-3 input1" type="text" placeholder="Whats your query ?"
+            style="font-weight: bold; width: 400px;height: 200px;border: none;outline: none;border-radius: 50px;">
+
+          <button class="btn-1 mt-3 ms-3"
+            style="background-color: #734CDB;padding: 12px 24px;border-radius: 50px;color: white;">GET A
+            QUOITE</button>
+
+        </div>
+
+        <div class="col-lg-6 d-flex align-items-center justify-content-center"
+          style="position: relative;height: 700px;">
+
+          <img class="rp" src="img_07-1 (1).jpg"
+            style="border-radius: 100%;position: absolute;top: 30px;right: 10px;height:500px;border: 3px dotted grey;padding: 24px 24px;"
+            alt="">
+
+          <img class="rp1" src="img_20 (1).jpg"
+            style="height: 400px;border: 10px solid white; bottom: 0px; left: 0px; border-radius: 100%;position: absolute;height: 400px;"
+            alt="">
+
+          <img class="pa" src="img_34-300x143.png" style="height: 100px;position: absolute;bottom: 10px;right: 100px;"
+            alt="">
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="contaner-fluid  py-5" style="background-color: #EFF2FB;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 py-3 d-md-flex align-items-start justify-content-evenly flex-wrap">
+          <div class="col-lg-6 d-flex align-items-center justify-content-center">
+            <div class="col-11 d-flex py-3" style="background-color: white;border-radius: 30px;">
+              <div class="col-4 d-flex align-items-center justify-content-center">
+                <img src="img_24 (1).jpg" style="border-radius: 100px;height: 90px;width: 90px;" alt="">
+              </div>
+              <div class="col-8 d-flex align-items-start justify-content-center flex-column">
+                <i class="bi bi-quote fs-1 fc"></i>
+                <p class="pc">Natoque nisl dolorem dolor <br> modi eligendi esse nibh <br> ultricies integer, officiis
+                  at sem <br> porta vitae.</p>
+                <h1 class="fc1" style="font-size: 18px;">Miley Houdson, Client</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-3 d-flex align-items-center justify-content-center">
+            <div class="col-11 d-flex bg py-3" style="border-radius: 30px;">
+              <div class="col-4 d-flex align-items-center justify-content-center">
+                <img src="img_25 (1).jpg" style="border-radius: 100px;height: 90px;width: 90px;" alt="">
+              </div>
+              <div class="col-8 d-flex align-items-start justify-content-center flex-column">
+                <i class="bi bi-quote fs-1 font"></i>
+                <p class="font">Natoque nisl dolorem dolor <br> modi eligendi esse nibh <br> ultricies integer, officiis
+                  at sem <br> porta vitae.</p>
+                <h1 class="font" style="font-size: 18px;">Miley Houdson, Client</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-3 d-flex align-items-center justify-content-center">
+            <div class="col-11 d-flex bg py-3" style="border-radius: 30px;">
+              <div class="col-4 d-flex align-items-center justify-content-center">
+                <img src="img_26 (1).jpg" style="border-radius: 100px;height: 90px;width: 90px;" alt="">
+              </div>
+              <div class="col-8 d-flex align-items-start justify-content-center flex-column">
+                <i class="bi bi-quote fs-1 font"></i>
+                <p class="font">Natoque nisl dolorem dolor <br> modi eligendi esse nibh <br> ultricies integer, officiis
+                  at sem <br> porta vitae.</p>
+                <h1 class="font" style="font-size: 18px;">Miley Houdson, Client</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-3 d-flex align-items-center justify-content-center">
+            <div class="col-11 d-flex py-3" style="background-color: white;border-radius: 30px;">
+              <div class="col-4 d-flex align-items-center justify-content-center">
+                <img src="img_27 (1).jpg" style="border-radius: 100px;height: 90px;width: 90px;" alt="">
+              </div>
+              <div class="col-8 d-flex align-items-start justify-content-center flex-column">
+                <i class="bi bi-quote fs-1 fc"></i>
+                <p class="pc">Natoque nisl dolorem dolor <br> modi eligendi esse nibh <br> ultricies integer, officiis
+                  at sem <br> porta vitae.</p>
+                <h1 class="fc1" style="font-size: 18px;">Miley Houdson, Client</h1>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-4  d-flex align-items-start justify-content-center flex-column">
+          <p class="fc fw-bold">CLIENT'S REVIEW</p>
+          <h1 class="fc1 fw-bold">Amazing Response From Our Clients</h1>
+          <p class="pc">Omnis quis sunt quasi aliquet senectus tenetur dolor! Omnis! Corrupti, est arcu, felis,
+            molestiae impedit vel felis eget.</p>
+          <div class="col-10 d-flex align-items-start justify-content-between">
+            <h1 class="fc1 ms-2" style="font-size: 17px;">Project Success rate</h1>
+            <p class="pc">85%</p>
+          </div>
+          <div class="col-11 d-flex align-items-start justify-content-center flex-column"
+            style="height: 25px;background-color: white;border-radius: 20px;">
+            <div class="col-10 d-flex align-items-center justify-content-center ms-2"
+              style="background-color: #31245b;height: 10px;border-radius: 20px;"></div>
+          </div>
+
+          <div class="col-10 d-flex align-items-start justify-content-between ">
+            <h1 class="fc1 ms-2 mt-4" style="font-size: 17px;">Project Success rate</h1>
+            <p class="pc mt-4 ">85%</p>
+          </div>
+          <div class="col-11 d-flex align-items-start justify-content-center flex-column"
+            style="height: 25px;background-color: white;border-radius: 20px;">
+            <div class="col-11 d-flex align-items-center justify-content-center ms-2"
+              style="background-color: #31245b;height: 10px;border-radius: 20px;"></div>
+          </div>
+          <button class="btn mt-4 " type="submit"> <img src="arrow-right.png" class="mb-1" style="height: 25px;" alt="">
+            MORE REVIEWS </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="col-12  py-2 d-flex align-items-center justify-content-start flex-column"
+            style="background-color: whitesmoke;border-radius: 20px;">
+            <img src="img_35-768x512.jpg" style="height: 290px;width: 95%;border-radius: 20px;object-fit: cover;"
+              alt="">
+            <h1 class="fc2 me-5 mt-3">5 Steps To Follow For Your <br> SEO Optimization</h1>
+            <div class="col-11 d-flex align-items-start justify-content-start py-2">
+              <h6 style="color: #A7A7A7;"><i class="bi bi-person"></i> by<span class="fc"
+                  style="font-size: 13px;">STAIRTEAM .</span></h6>
+              <h6 class="ms-3" style="color: #A7A7A7;"><i class="bi bi-stopwatch-fill"></i><span
+                  style="font-size: 13px;color: #A7A7A7;">April 9, 2023</span></h6>
+            </div>
+            <P class="pc me-3" style="font-weight:500;">Eget dolorem placerat sagittis ad pariatur <br> anim dolorem
+              corrupti occaecati <br> quasi nesciunt....</P>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="col-12 mt-2 py-2 d-flex align-items-center justify-content-start flex-column"
+            style="background-color: whitesmoke;border-radius: 20px;">
+            <img src="img_37.jpg" style="height: 290px;width: 95%;border-radius: 20px;object-fit: cover;" alt="">
+            <h1 class="fc2 me-5 mt-3">How To Create Tiktok <br> Videos To Get Many Views</h1>
+            <div class="col-11 d-flex align-items-start justify-content-start py-2">
+              <h6 style="color: #A7A7A7;"><i class="bi bi-person"></i> by<span class="fc"
+                  style="font-size: 13px;">STAIRTEAM .</span></h6>
+              <h6 class="ms-3" style="color: #A7A7A7;"><i class="bi bi-stopwatch-fill"></i><span
+                  style="font-size: 13px;color: #A7A7A7;">April 9, 2023</span></h6>
+            </div>
+            <P class="pc me-3" style="font-weight:500;">Eget dolorem placerat sagittis ad pariatur <br> anim dolorem
+              corrupti occaecati <br> quasi nesciunt....</P>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="col-12 mt-2 py-2 d-flex align-items-center justify-content-start flex-column"
+            style="background-color: whitesmoke;border-radius: 20px;">
+            <img src="img_36-768x512.jpg" style="height: 290px;width: 95%;border-radius: 20px;object-fit: cover;"
+              alt="">
+            <h1 class="fc2 ms-3 mt-3">How Brand Help For Social Media Startegy In 2023</h1>
+            <div class="col-11 d-flex align-items-start justify-content-start py-2">
+              <h6 style="color: #A7A7A7;"><i class="bi bi-person"></i> by<span class="fc"
+                  style="font-size: 13px;">STAIRTEAM .</span></h6>
+              <h6 class="ms-3" style="color: #A7A7A7;"><i class="bi bi-stopwatch-fill"></i><span
+                  style="font-size: 13px;color: #A7A7A7;">April 9, 2023</span></h6>
+            </div>
+            <P class="pc me-3" style="font-weight:500;">Eget dolorem placerat sagittis ad pariatur <br> anim dolorem
+              corrupti occaecati <br> quasi nesciunt....</P>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg1 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 py-2 d-flex align-items-start justify-content-center flex-column">
+          <h1 style="font-size: 16px;" class="font">ABOUT COMPANY</h1>
+          <p class="p1 mt-3">Sint metus, integer, sociis, <br> aenean aenean nibh biben.</p>
+          <h1 style="font-size: 15px;" class="p1 mt-2"><i class="bi bi-geo-alt"></i> <span class="ms-2">3rd Street,
+              LA</span></h1>
+          <h1 style="font-size: 15px;" class="p1 mt-2"><i class="bi bi-telephone-inbound"></i> <span class="ms-2">+1
+              (088) 456 888
+              (24/7)</span></h1>
+          <h1 style="font-size: 15px;" class="p1 mt-2"><i class="bi bi-envelope-open"></i> <span
+              class="ms-2">info@domain.com</span>
+          </h1>
+        </div>
+        <div class="col-lg-3 col-md-6 py-2 d-flex align-items-start justify-content-center flex-column">
+          <h1 class="font mt-3" style="font-size: 16px;">OUR SERVICES</h1>
+          <p class="p1 mt-2">Social Marketing</p>
+          <p class="p1">Email Marketing</p>
+          <p class="p1">Refer And Earn</p>
+          <p class="p1">Creative Management</p>
+          <p class="p1">Media Support</p>
+        </div>
+        <div class="col-lg-3 col-md-6 py-2">
+          <h1 class="font mt-3" style="font-size: 16px;">CUSTOMER SUPPORT</h1>
+          <p class="p1 mt-3 ">FAQ</p>
+          <p class="p1">Knowledge Base</p>
+          <p class="p1">Online Support</p>
+          <p class="p1">Privacy Policy</p>
+          <p class="p1">Terms & Condition</p>
+        </div>
+        <div class="col-lg-3 col-md-6 py-2">
+          <h1 class="font mt-3" style="font-size: 16px;">USEFUL LINKS</h1>
+          <p class="p1 mt-3">Our terms</p>
+          <p class="p1">Company story</p>
+          <p class="p1">Legal Terms</p>
+          <p class="p1">Partners</p>
+          <p class="p1">Recent news</p>
+        </div>
+      </div>
+
+      <div class="row bg py-5" style="border-radius: 20px;">
+
+        <div class="col-lg-6 d-flex align-items-start justify-content-between">
+          <img src="logo-white.png" alt="">
+        </div>
+        <div class="col-lg-6 d-flex align-items-start justify-content-end mt-2">
+          <span class="font1 me-4">About Us</span>
+          <span class=" font1 me-3">Pricing</span>
+          <span class=" font1 me-3">Reviews</span>
+          <span class=" font1 me-3">Blog</span>
+          <span class=" font1 me-3">Community</span>
+        </div>
+
+
+        <div class="col-12 mt-4 d-flex align-items-start justify-content-between"
+          style="border-top: 1px solid #A7A7A7;">
+          <p class="font mt-3">© Copyright <span class="fw-bold">Sociable.</span> All right reserved.</p>
+          <div class="d-flex">
+            <i class="me-3 font1 mt-3 bi bi-facebook"></i>
+            <i class="me-3 font1 mt-3 bi bi-twitter"></i>
+            <i class="me-3 font1 mt-3 bi bi-instagram"></i>
+            <i class="me-3 font1 mt-3 bi bi-pinterest"></i>
+            <i class="me-3 font1 mt-3 bi bi-whatsapp"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+
+    let detail = document.querySelector('.form-container');
+
+    let btnVar = document.querySelector(".ak");
+
+
+
+    function btnclick() {
+
+      detail.style.display = "flex";
+
+    }
+
+    function closeOne() {
+
+      detail.style.display = "none";
+
+    }
+
+
+
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
